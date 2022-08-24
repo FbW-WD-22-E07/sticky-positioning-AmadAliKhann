@@ -6,15 +6,29 @@
 
 body {
     margin-top: 100px;
+
+   
 }
 
 main.container {
     /* giv background width heigh,
     padding and center it horizontally */
+    width: 1000px;
+    height: 200px;
+    padding-left: 50px;
+    margin-left: 20%;
+    margin-top: 15%;
+    
+   
+   
+
+    
    
 
     /* what is this doing? */
     overflow-y: scroll;
+
+    /* it is giving us the scroll bar in y direction */
 }
 .sticky-section {
     margin-top: 10px;
@@ -25,9 +39,12 @@ main.container {
     background-color: aqua;
     height: 50px;
     /* make it sticky, and you need to define top: */
+    position: sticky;
+    top: 0;
 }
 
 ul {
     /* how to remove the discs from style? */
     margin: 10px 0 10px 10px;
+    list-style: none;
 }
